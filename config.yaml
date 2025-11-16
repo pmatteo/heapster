@@ -1,0 +1,7 @@
+server:
+  addr: ":6380" # TCP address to listen on
+  read_timeout: 5 # (not yet wired, can extend server to enforce)
+  write_timeout: 5
+
+store:
+  max_items: 100000 # maximum number of items allowed in the store
