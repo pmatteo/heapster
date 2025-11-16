@@ -1,7 +1,8 @@
 name: Perform code analysis and run tests
 
 on:
-  push:
+  pull_request:
+    types: [synchronize, opened, reopened, ready_for_review]
 
 permissions:
   contents: read
