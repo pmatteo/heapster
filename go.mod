@@ -3,7 +3,7 @@ module github.com/pmatteo/heapster
 go 1.25.1
 
 require (
-	github.com/puzpuzpuz/xsync/v4 v4.2.0
+	github.com/puzpuzpuz/xsync/v4 v4.4.0
 	gopkg.in/yaml.v3 v3.0.1
 )
 
